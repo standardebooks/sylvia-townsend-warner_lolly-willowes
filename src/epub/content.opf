@@ -28,43 +28,68 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Lolly Willowes</dc:title>
 		<meta property="file-as" refines="#title">Lolly Willowes</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Or The Loving Huntsman</dc:title>
+		<meta property="file-as" refines="#subtitle">Or The Loving Huntsman</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Lolly Willowes or The Loving Huntsman</dc:title>
+		<meta property="file-as" refines="#fulltitle">Lolly Willowes or The Loving Huntsman</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Fantasy fiction</dc:subject>
+		<dc:subject id="subject-2">Humorous stories</dc:subject>
+		<dc:subject id="subject-3">Feminist fiction</dc:subject>
+		<dc:subject id="subject-4">Sex role -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Paranormal fiction</dc:subject>
+		<dc:subject id="subject-6">England -- Social life and customs -- 20th century -- Fiction</dc:subject>
+		<dc:subject id="subject-7">Single women -- England -- Social conditions -- Fiction</dc:subject>
+		<dc:subject id="subject-8">Witches -- England -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85047114</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85062975</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh94007953</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008111482</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh98004865</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2008114942</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">Unknown</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">Unknown</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A middle-aged spinster leaves her controlling relatives in London for a life of independence in rural England, where she enters into a pact with Satan.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Laura Willowes endures a lonely and mostly isolated childhood in her family’s Somerset mansion. Her mother dies when she is a teenager. To the disappointment of her relatives, she shows no interest in marriage as she nears adulthood, preferring instead to read from her parents’ library and to pursue her interest in plants. When her father also dies, she moves into the London home of her brother and his family, where she is to help with household tasks and the care of her nieces and nephews. Her life consists of this for many years, interrupted only by the First World War, during which she ties parcels at a depot. One day after the war, as she is buying flowers, the middle-aged Laura is suddenly inspired to move away on her own, buying a guidebook and settling upon a small village in the Chiltern Hills called Great Mop. Her decision shocks and outrages most of her relatives, especially her brother, who has until this point controlled the yearly income due to Laura from her inheritance. In Great Mop Laura finally experiences the freedom and independence that she could never find among her family, but she quickly realizes that all is not what it seems in the quiet village. Moreover, escaping her condescending relatives and their narrow conception of her as “Aunt Lolly” will not prove as simple as she had hoped.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Lolly Willowes&lt;/i&gt; was well received on its publication in 1926, especially in France and North America. In depicting an unmarried and childless woman who seeks independence in middle age, it was unusual in its time and anticipated feminist concerns of later decades, well encapsulated by Laura’s passionately stated ambition “to have a life of one’s own, not an existence doled out to you by others.” The notion that a middle-aged spinster who abjures a life of service is likely to be a witch indentured to Satan may strike modern readers as a derisive joke. However, &lt;a href="https://standardebooks.org/ebooks/sylvia-townsend-warner"&gt;Townsend Warner’s&lt;/a&gt; satire can also be interpreted as raising serious questions about the stereotypes and social norms, perhaps especially those influenced by religion, that curtail women’s freedom.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://en.m.wikisource.org/wiki/Lolly_Willowes</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/001020507</dc:source>
+		<meta property="se:production-notes">LCSH identifiers have been taken from the Project Gutenberg transcription, which was released after this production using the Wikisource transcription had been proofread.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Lolly_Willowes</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/sylvia-townsend-warner_lolly-willowes</meta>
 		<dc:creator id="author">Sylvia Townsend Warner</dc:creator>
 		<meta property="file-as" refines="#author">Warner, Sylvia Townsend</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Sylvia Nora Townsend Warner</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Sylvia_Townsend_Warner</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79059730</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Eugeniusz Dąbrowa-Dąbrowski</dc:contributor>
+		<meta property="file-as" refines="#artist">Dąbrowa-Dąbrowski, Eugeniusz</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Ludwik Eugeniusz Dąbrowa-Dąbrowski</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-1">https://en.wikipedia.org/wiki/Wikisource</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Erin Endrei</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Endrei, Erin</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
