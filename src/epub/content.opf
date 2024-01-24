@@ -60,6 +60,9 @@
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
+		<meta property="collection-type" refines="#collection">set</meta>
+		<meta property="group-position" refines="#collection">52</meta>
 		<dc:description id="description">A middle-aged spinster leaves her controlling relatives in London for a life of independence in rural England, where she enters into a pact with Satan.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Laura Willowes endures a lonely and mostly isolated childhood in her family’s Somerset mansion. Her mother dies when she is a teenager. To the disappointment of her relatives, she shows no interest in marriage as she nears adulthood, preferring instead to read from her parents’ library and to pursue her interest in plants. When her father also dies, she moves into the London home of her brother and his family, where she’s to help with household tasks and the care of her nieces and nephews. Her life consists of this for many years, interrupted only by the First World War.&lt;/p&gt;
